@@ -1,14 +1,14 @@
 import java.awt.event.*;
 import javax.swing.*;
 
-public class Main{
+public class BasicCalculator{
 	
 	JTextField tf1,tf2,tf3;  
-    JButton b1,b2;  
+    	JButton b1,b2;  
     
 	public static void main(String[] args) {
-		Main main = new Main();
-		Main.TextFieldExample textfeild = main.new TextFieldExample();
+		BasicCalculator cal = new BasicCalculator();
+		BasicCalculator.TextFieldExample textfeild = cal.new TextFieldExample();
 				
 	}
 	public class TextFieldExample implements ActionListener{  
