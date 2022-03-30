@@ -26,17 +26,6 @@ public class SnakeGame
     		this.setVisible(true);
     		this.setLocationRelativeTo(null);
     	}
-    	
-    	/*
-    	@Override
-    	public void actionPerformed(ActionEvent e) 
-    	{
-    		if(e.getSource()==restart_button) 
-    		{
-    			this.add(new GamePanel());   			
-    		}
-    	}
-    	*/
     }
     static class GamePanel extends JPanel implements ActionListener
     {
@@ -209,9 +198,9 @@ public class SnakeGame
         		bodyParts = 6;
         		applesEaten = 0;
         		x = new int[GAME_UNITS];
-            	y = new int[GAME_UNITS];
-            	direction = 'R';
-            	restart_button.setVisible(false);
+            		y = new int[GAME_UNITS];
+            		direction = 'R';
+            		restart_button.setVisible(false);
     		}
     		repaint();
     		
