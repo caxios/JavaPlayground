@@ -177,6 +177,7 @@ public class SnakeGame
     		g.drawString("Game Over", (SCREEN_WIDTH - metrics2.stringWidth("Game Over"))/2, SCREEN_HEIGHT/2);
     		restart_button.addActionListener(this);
     		restart_button.setBounds(200,300,100,50);
+                restart_button.setVisible(true);
     		this.add(restart_button);
     		 
     	}
